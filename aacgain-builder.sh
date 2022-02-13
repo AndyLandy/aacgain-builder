@@ -11,6 +11,7 @@ rm -f mp3gain/mpglibDBL/config.h
 sed 's!\.\.\/!!g' aacgain/mp4v2.patch | patch -p0
 sed 's!\.\.\/!!g' aacgain/linux/mp3gain.patch | patch -p0 -N
 patch -p0 <rtphint.patch
+patch -p0 <Utility.patch
 
 autoreconf -vif
 
