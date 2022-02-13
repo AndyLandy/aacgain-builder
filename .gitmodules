@@ -1,15 +1,12 @@
 [submodule "aacgain"]
 	path = aacgain
 	url = git://github.com/mecke/aacgain.git
-
 [submodule "mp3gain"]
 	path = mp3gain
 	url = git://github.com/gsantner/mirror-mp3gain.git
-
 [submodule "faad2"]
 	path = faad2
-	url = git://github.com:AndyLandy/faad2.git
-
+	url = git://github.com/AndyLandy/faad2.git
 [submodule "mp4v2"]
 	path = mp4v2
-	url = git://github.com:AndyLandy/mp4v2.git
+	url = git://github.com/AndyLandy/mp4v2.git
