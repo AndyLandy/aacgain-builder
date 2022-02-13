@@ -1,0 +1,11 @@
+--- mp4v2/src/rtphint.cpp	2022-02-13 17:11:25.933934540 +0000
++++ rtphint.cpp	2022-02-13 17:37:46.977371451 +0000
+@@ -345,7 +345,7 @@
+                 pSlash = strchr(pSlash, '/');
+                 if (pSlash != NULL) {
+                     pSlash++;
+-                    if (pSlash != '\0') {
++                    if (*pSlash != '\0') {
+                         length = strlen(pRtpMap) - (pSlash - pRtpMap);
+                         *ppEncodingParams = (char *)MP4Calloc(length + 1);
+                         strncpy(*ppEncodingParams, pSlash, length);
