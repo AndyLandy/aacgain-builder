@@ -17,6 +17,10 @@ cd ..
 
 autoreconf -vif
 
+if [[ "$(uname -s)" == "CYGWIN"* ]]; then 
+    rm -rf m4/
+fi
+
 ./configure
 make -j $cores
 strip -s "aacgain/aacgain"
