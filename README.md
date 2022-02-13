@@ -7,4 +7,5 @@ Tool to automate building of aacgain
 
 To use this tool, run
 
-    ./aacgain-builder.sh
+    ./prepare
+    ./build
